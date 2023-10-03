@@ -14,6 +14,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+
 @Listeners(TestUtiliti.Listeners.class)
 public class LoginTests extends TestBase {
     private static final By homeSortBtn = AppiumBy.accessibilityId("sort button");

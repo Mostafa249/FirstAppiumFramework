@@ -14,10 +14,16 @@ public class HomeScreen {
     public HomeScreen(AppiumDriver driver) {
         HomeScreen.driver = driver;
     }
+
     @Step("Click on open menu button then click on login button. ")
     public static void loginActions() {
-
         driver.findElement(openMenuBtn).click();
         driver.findElement(loginBtn).click();
+    }
+
+    @Step("Add product to cart . ")
+    public static void addProductActions(String productIndex) {
+        By product = AppiumBy.xpath("(//*[@content-desc=\"store item\"])[" + productIndex + "]");
+        driver.findElement(product).click();
     }
 }

@@ -1,8 +1,7 @@
 package TestUtiliti;
 
-import Screens.HomeScreen;
+import Tests.TestBase;
 import Utiliti.Logs;
-import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -11,8 +10,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class Listeners implements ITestListener {
-    AppiumDriver driver;
+public class Listeners extends TestBase implements ITestListener {
 
     private static String getTestMethodNAME(ITestResult iTestResult) {
         return iTestResult.getMethod().getConstructorOrMethod().getName();
@@ -36,10 +34,9 @@ public class Listeners implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        new HomeScreen(driver);
         System.out.println("I am on test passed method" + getTestMethodNAME(iTestResult) + "passed");
         Object testClass = iTestResult.getInstance();
-        if (driver instanceof WebDriver) {
+        if (driver != null) {
             System.out.println("Screenshot captured for test case " + getTestMethodNAME(iTestResult));
             saveScreenshotPNG(driver);
         }

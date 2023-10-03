@@ -1,7 +1,9 @@
 package Tests;
 
+import Screens.CartScreen;
 import Screens.HomeScreen;
 import Screens.LoginScreen;
+import Screens.ProductScreen;
 import Utiliti.Logs;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -42,6 +44,8 @@ public class TestBase {
         Logs.info("App  is opened");
         new HomeScreen(driver);
         new LoginScreen(driver);
+        new ProductScreen(driver);
+        new CartScreen(driver);
     }
 
     @AfterMethod

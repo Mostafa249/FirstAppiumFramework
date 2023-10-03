@@ -1,0 +1,1 @@
+{"uuid":"561eafcc-334a-421a-bd74-0d3a42bc69a8","name":"Tests.AddToCartTests","children":["cd84921b-c8e3-47d5-a7ed-da48e4ceea94"],"befores":[{"name":"RunAndroidApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1696330959972,"stop":1696330961759}],"afters":[],"start":1696330959891,"stop":1696330982370}
