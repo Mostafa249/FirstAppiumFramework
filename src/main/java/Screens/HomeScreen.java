@@ -15,7 +15,7 @@ public class HomeScreen {
         HomeScreen.driver = driver;
     }
     @Step("Click on open menu button then click on login button. ")
-    public static void homeScreenActions() {
+    public static void loginActions() {
 
         driver.findElement(openMenuBtn).click();
         driver.findElement(loginBtn).click();

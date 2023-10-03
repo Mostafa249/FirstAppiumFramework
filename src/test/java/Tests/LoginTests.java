@@ -26,9 +26,7 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with empty user name field")
     public void loginWithEmptyUserName() throws IOException {
-        new HomeScreen(driver);
-        new LoginScreen(driver);
-        HomeScreen.homeScreenActions();
+        HomeScreen.loginActions();
         LoginScreen.loginActions("",
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
         Logs.info("Assert on empty user name error message");
@@ -39,9 +37,7 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with empty password field")
     public void loginWithEmptyPassword() throws IOException {
-        new HomeScreen(driver);
-        new LoginScreen(driver);
-        HomeScreen.homeScreenActions();
+        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 "");
@@ -53,9 +49,7 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with invalid user name field")
     public void loginWithInvalidUserName() throws IOException {
-        new HomeScreen(driver);
-        new LoginScreen(driver);
-        HomeScreen.homeScreenActions();
+        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "invalidData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
@@ -67,9 +61,7 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with invalid password field")
     public void loginWithInvalidPassword() throws IOException {
-        new HomeScreen(driver);
-        new LoginScreen(driver);
-        HomeScreen.homeScreenActions();
+        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "invalidData", 1, 1));
@@ -81,9 +73,7 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Successful login with correct data")
     public void loginWithValidCredentials() throws IOException {
-        new HomeScreen(driver);
-        new LoginScreen(driver);
-        HomeScreen.homeScreenActions();
+        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));

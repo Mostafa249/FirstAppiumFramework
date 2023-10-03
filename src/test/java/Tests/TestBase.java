@@ -1,5 +1,7 @@
 package Tests;
 
+import Screens.HomeScreen;
+import Screens.LoginScreen;
 import Utiliti.Logs;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -38,6 +40,8 @@ public class TestBase {
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723"), option);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
         Logs.info("App  is opened");
+        new HomeScreen(driver);
+        new LoginScreen(driver);
     }
 
     @AfterMethod
