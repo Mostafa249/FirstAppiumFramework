@@ -1,0 +1,1 @@
+{"uuid":"4a7d40f6-6f63-4344-8f3a-ecb28f36089c","name":"Tests.LoginTests","children":["26cd498a-4048-46be-8e3f-d402a4a5d05a"],"befores":[{"name":"RunAndroidApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1696321176381,"stop":1696321178769}],"afters":[],"start":1696321176286,"stop":1696321198368}
