@@ -5674,3 +5674,1555 @@
             App is closed
 2023-10-04 13:48:22,256 [main] [INFO ] Utiliti.Logs:20:Logs.java -
             Finishing firstAppium
+2023-10-04 15:16:27,044 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:16:27,087 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:16:27,115 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:16:27,141 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:16:27,191 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:16:27,253 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:16:27,602 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:16:27,628 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:16:27,629 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:16:27,641 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@349f0ca4
+2023-10-04 15:16:27,715 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:16:27,716 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:16:27,720 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:16:27,722 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:16:27,724 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:16:27,726 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:16:27,727 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:16:27,730 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:16:27,733 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @47c6f491
+2023-10-04 15:16:27,735 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:16:27,736 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:16:27,737 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:16:27,738 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:16:27,738 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:16:27,739 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:16:27,741 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:16:27,741 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:16:27,745 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:16:27,746 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:16:27,781 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:16:27,859 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:16:27,860 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:16:28,168 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:16:28,169 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:16:28,215 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:16:28,278 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:16:28,319 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:16:28,320 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:16:28,467 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:16:28,469 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:16:28,469 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:16:28,469 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:16:28,470 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:16:28,470 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:16:28,471 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:16:28,471 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:16:28,471 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:16:28,472 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:16:28,472 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:16:28,473 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:16:28,505 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:16:28,506 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:16:28,507 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:16:29,117 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 27828 (auto-detected)
+2023-10-04 15:16:29,122 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:16:29,123 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:16:29,143 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:16:29,145 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:16:29,196 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:16:29,337 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:16:29,338 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:16:29,339 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7149b781
+2023-10-04 15:16:29,423 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:16:29,424 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:16:29,424 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:16:29,425 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:16:29,425 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:16:40,436 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:16:40,732 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:16:40,797 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:16:46,475 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:16:47,987 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:16:49,460 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:16:49,626 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:16:50,560 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:16:51,449 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutFullName is starting.
+2023-10-04 15:16:51,499 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:16:52,241 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:16:52,269 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium
+2023-10-04 15:18:17,318 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:18:17,359 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:18:17,383 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:18:17,409 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:18:17,431 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:18:17,480 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:18:17,773 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:18:17,790 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:18:17,790 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:18:17,800 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2154652c
+2023-10-04 15:18:17,855 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:18:17,856 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:18:17,859 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:18:17,861 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:18:17,863 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:18:17,865 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:18:17,866 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:18:17,868 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:18:17,871 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @290d210d
+2023-10-04 15:18:17,873 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:18:17,875 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:18:17,875 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:18:17,877 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:18:17,878 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:18:17,878 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:18:17,880 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:18:17,881 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:18:17,883 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:18:17,884 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:18:17,920 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:18:17,990 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:18:17,991 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:18:18,250 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:18:18,251 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:18:18,282 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:18:18,317 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:18:18,351 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:18:18,352 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:18:18,458 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:18:18,459 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:18:18,459 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:18:18,460 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:18:18,460 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:18:18,460 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:18:18,461 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:18:18,461 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:18:18,461 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:18:18,462 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:18:18,462 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:18:18,463 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:18:18,490 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:18:18,490 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:18:18,491 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:18:18,989 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 21580 (auto-detected)
+2023-10-04 15:18:18,993 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:18:18,994 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:18:19,007 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:18:19,009 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:18:19,049 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:18:19,157 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:18:19,158 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:18:19,158 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@666a4163
+2023-10-04 15:18:19,215 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:18:19,215 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:18:19,215 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:18:19,215 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:18:19,216 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:18:28,095 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:18:28,381 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:18:28,453 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:18:33,893 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:18:35,097 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:18:36,795 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:18:37,370 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:18:38,341 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:18:39,259 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutFullName is starting.
+2023-10-04 15:18:39,322 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:18:45,999 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:18:47,588 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:18:47,621 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium
+2023-10-04 15:34:52,951 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:34:52,987 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:34:53,014 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:34:53,048 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:34:53,079 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:34:53,146 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:34:53,494 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:34:53,520 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:34:53,521 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:34:53,532 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5a4c98d7
+2023-10-04 15:34:53,633 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:34:53,634 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:34:53,637 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:34:53,639 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:34:53,641 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:34:53,643 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:34:53,645 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:34:53,647 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:34:53,651 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @290d210d
+2023-10-04 15:34:53,653 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:34:53,654 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:34:53,654 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:34:53,656 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:34:53,657 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:34:53,657 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:34:53,661 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:34:53,662 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:34:53,665 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:34:53,665 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:34:53,701 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:34:53,776 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:34:53,777 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:34:54,067 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:34:54,068 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:34:54,116 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:34:54,161 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:34:54,185 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:34:54,187 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:34:54,315 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:34:54,315 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:34:54,316 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:34:54,316 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:34:54,317 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:34:54,317 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:34:54,318 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:34:54,318 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:34:54,319 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:34:54,319 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:34:54,319 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:34:54,320 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:34:54,352 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:34:54,353 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:34:54,353 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:34:54,930 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 28836 (auto-detected)
+2023-10-04 15:34:54,935 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:34:54,936 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:34:54,952 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:34:54,955 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:34:55,002 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:34:55,130 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:34:55,131 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:34:55,131 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@cb13231
+2023-10-04 15:34:55,208 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:34:55,209 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:34:55,209 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:34:55,209 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:34:55,210 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:35:05,834 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:35:06,130 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:35:06,192 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:35:12,073 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:35:13,079 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:35:14,512 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:35:14,675 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:35:15,520 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:35:16,449 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutFullName is starting.
+2023-10-04 15:35:16,509 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:35:22,451 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:35:23,766 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:35:23,792 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:35:32,749 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:35:32,765 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:35:38,412 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:35:39,405 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:35:40,820 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:35:40,975 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:35:41,922 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:35:42,628 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutAddressLine1 is starting.
+2023-10-04 15:35:42,644 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:35:48,781 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:35:49,952 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:35:49,972 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:35:58,908 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:35:58,927 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:36:04,751 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:36:05,789 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:36:07,258 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:36:07,450 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:36:08,331 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:36:09,171 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutCity is starting.
+2023-10-04 15:36:09,185 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:36:15,800 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:36:16,914 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:36:16,932 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:36:26,199 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:36:26,213 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:36:31,949 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:36:33,050 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:36:34,433 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:36:34,655 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:36:35,583 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:36:36,408 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutZipCode is starting.
+2023-10-04 15:36:36,422 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:36:41,939 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:36:43,084 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:36:43,098 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:36:51,731 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:36:51,742 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:36:57,420 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:36:58,549 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:36:59,865 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:37:00,067 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:37:01,568 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:37:02,286 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutCountry is starting.
+2023-10-04 15:37:02,298 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:37:08,328 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:37:09,522 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:37:09,540 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium
+2023-10-04 15:42:21,378 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:42:21,411 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:42:21,437 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:42:21,460 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:42:21,483 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:42:21,539 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:42:21,789 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:42:21,810 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:42:21,811 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:42:21,822 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@79d63a4f
+2023-10-04 15:42:21,881 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:42:21,882 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:42:21,885 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:42:21,887 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:42:21,888 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:42:21,890 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:42:21,892 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:42:21,894 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:42:21,896 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @290d210d
+2023-10-04 15:42:21,898 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:42:21,899 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:42:21,900 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:42:21,901 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:42:21,902 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:42:21,902 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:42:21,904 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:42:21,905 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:42:21,908 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:42:21,909 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:42:21,942 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:42:22,006 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:42:22,007 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:42:22,320 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:42:22,321 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:42:22,370 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:42:22,415 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:42:22,442 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:42:22,443 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:42:22,568 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:42:22,569 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:42:22,569 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:42:22,569 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:42:22,570 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:42:22,570 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:42:22,570 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:42:22,571 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:42:22,571 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:42:22,571 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:42:22,572 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:42:22,572 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:42:22,613 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:42:22,615 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:42:22,616 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:42:23,115 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 23136 (auto-detected)
+2023-10-04 15:42:23,119 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:42:23,120 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:42:23,136 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:42:23,139 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:42:23,182 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:42:23,275 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:42:23,277 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:42:23,277 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@243289ca
+2023-10-04 15:42:23,334 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:42:23,335 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:42:23,335 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:42:23,335 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:42:23,336 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:42:33,405 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:42:33,662 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:42:33,732 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:42:39,687 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:42:40,807 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:42:42,313 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:42:42,473 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:42:43,303 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:42:44,241 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutFullName is starting.
+2023-10-04 15:42:44,299 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:42:49,891 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:42:51,133 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:42:51,157 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:43:00,255 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:43:00,271 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:43:06,234 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:43:07,316 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:43:08,755 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:43:08,972 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:43:09,824 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:43:10,609 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutAddressLine1 is starting.
+2023-10-04 15:43:10,624 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:43:16,582 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:43:17,819 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:43:17,837 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:43:26,586 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:43:26,606 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:43:32,252 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:43:33,320 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:43:34,653 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:43:35,000 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:43:35,852 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:43:36,555 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutCity is starting.
+2023-10-04 15:43:36,566 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:43:43,059 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:43:44,270 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:43:44,287 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:43:53,058 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:43:53,073 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:43:58,799 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:43:59,795 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:44:01,983 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:44:02,197 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:44:03,179 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:44:03,910 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutZipCode is starting.
+2023-10-04 15:44:03,922 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:44:09,118 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:44:10,355 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:44:10,371 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:44:19,295 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:44:19,306 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:44:24,818 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:44:25,981 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:44:27,368 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:44:27,610 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:44:28,545 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:44:29,249 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutCountry is starting.
+2023-10-04 15:44:29,262 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:44:34,853 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:44:35,989 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:44:36,004 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:44:44,988 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:44:44,998 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:44:50,562 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:44:51,645 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:44:53,068 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:44:53,465 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:44:54,428 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:44:55,186 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithCorrectData is starting.
+2023-10-04 15:44:55,199 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:44:59,982 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:45:02,010 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:45:02,028 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium
+2023-10-04 15:49:27,114 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:49:27,145 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:49:27,167 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:49:27,189 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:49:27,213 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:49:27,263 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:49:27,528 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:49:27,546 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:49:27,547 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:49:27,556 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@12e5d3e1
+2023-10-04 15:49:27,617 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:49:27,618 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:49:27,622 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:49:27,625 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:49:27,626 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:49:27,627 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:49:27,628 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:49:27,630 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:49:27,633 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @290d210d
+2023-10-04 15:49:27,636 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:49:27,636 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:49:27,637 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:49:27,638 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:49:27,638 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:49:27,639 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:49:27,641 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:49:27,642 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:49:27,645 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:49:27,647 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:49:27,677 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:49:27,734 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:49:27,734 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:49:27,984 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:49:27,985 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:49:28,022 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:49:28,061 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:49:28,086 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:49:28,087 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:49:28,210 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:49:28,211 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:49:28,211 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:49:28,212 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:49:28,212 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:49:28,212 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:49:28,213 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:49:28,213 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:49:28,213 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:49:28,215 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:49:28,216 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:49:28,217 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:49:28,248 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:49:28,249 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:49:28,249 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:49:28,776 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 22880 (auto-detected)
+2023-10-04 15:49:28,780 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:49:28,780 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:49:28,797 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:49:28,799 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:49:28,843 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:49:28,938 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:49:28,938 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:49:28,938 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1d583ce9
+2023-10-04 15:49:28,986 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:49:28,986 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:49:28,987 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:49:28,988 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:49:28,988 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:49:37,825 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:49:38,119 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:49:40,645 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            loginWithEmptyUserName is starting.
+2023-10-04 15:49:43,466 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on empty user name error message
+2023-10-04 15:49:44,707 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:49:44,735 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:49:53,690 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:49:56,557 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            loginWithEmptyPassword is starting.
+2023-10-04 15:49:59,352 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on empty password error message
+2023-10-04 15:50:00,540 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:50:00,561 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:50:09,324 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:50:12,112 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            loginWithInvalidUserName is starting.
+2023-10-04 15:50:15,066 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on wrong credentials error message
+2023-10-04 15:50:16,285 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:50:16,310 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:50:25,139 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:50:27,975 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            loginWithInvalidPassword is starting.
+2023-10-04 15:50:30,878 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on wrong credentials error message
+2023-10-04 15:50:32,042 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:50:32,083 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:50:40,880 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:50:43,570 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            loginWithValidCredentials is starting.
+2023-10-04 15:50:46,563 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on login successfully 
+2023-10-04 15:50:47,950 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:50:47,975 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium
+2023-10-04 15:51:13,576 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:51:13,610 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:51:13,635 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:51:13,658 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:51:13,686 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:51:13,739 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:51:14,038 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:51:14,057 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:51:14,058 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:51:14,069 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@64f32e9e
+2023-10-04 15:51:14,131 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:51:14,132 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:51:14,135 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:51:14,137 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:51:14,138 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:51:14,140 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:51:14,142 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:51:14,143 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:51:14,146 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @290d210d
+2023-10-04 15:51:14,148 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:51:14,149 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:51:14,150 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:51:14,151 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:51:14,151 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:51:14,152 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:51:14,154 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:51:14,155 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:51:14,158 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:51:14,158 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:51:14,194 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:51:14,258 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:51:14,258 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:51:14,500 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:51:14,501 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:51:14,538 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:51:14,590 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:51:14,614 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:51:14,614 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:51:14,747 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:51:14,748 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:51:14,749 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:51:14,749 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:51:14,750 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:51:14,750 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:51:14,750 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:51:14,751 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:51:14,751 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:51:14,751 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:51:14,752 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:51:14,752 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:51:14,783 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:51:14,784 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:51:14,784 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:51:15,297 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 5184 (auto-detected)
+2023-10-04 15:51:15,303 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:51:15,303 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:51:15,318 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:51:15,320 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:51:15,360 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:51:15,459 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:51:15,460 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:51:15,461 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@520e709e
+2023-10-04 15:51:15,515 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:51:15,516 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:51:15,516 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:51:15,517 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:51:15,517 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:51:24,153 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:51:24,495 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:51:24,608 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:51:30,114 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            ChangeTheItemColorBeforeAddingItToCart is starting.
+2023-10-04 15:51:30,171 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:51:30,865 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:51:32,265 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:51:32,479 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:51:33,401 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert that product added with red color
+2023-10-04 15:51:34,663 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:51:34,686 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:51:43,774 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:51:43,793 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:51:49,283 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            addTwoItemsToCart is starting.
+2023-10-04 15:51:49,298 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add first product to cart
+2023-10-04 15:51:50,481 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button to add first product 
+2023-10-04 15:51:51,591 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Back to home screen 
+2023-10-04 15:51:51,750 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add second product to cart
+2023-10-04 15:51:53,082 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button to add second product
+2023-10-04 15:51:54,285 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:51:55,198 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on number of items were added to cart 
+2023-10-04 15:51:56,097 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:51:56,116 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:52:04,920 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:52:04,935 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:52:10,322 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            calculateTotalPriceOfAddedItems is starting.
+2023-10-04 15:52:10,340 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add first product to cart
+2023-10-04 15:52:11,425 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button to add first product 
+2023-10-04 15:52:12,562 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Back to home screen 
+2023-10-04 15:52:12,750 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add second product to cart
+2023-10-04 15:52:14,072 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button to add second product
+2023-10-04 15:52:15,161 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:52:15,961 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on total price of added items 
+2023-10-04 15:52:17,145 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:52:17,165 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:52:25,894 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:52:25,911 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:52:31,326 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkTotalPriceAndTotalItemsAfterRemovingAnItemFromCart is starting.
+2023-10-04 15:52:31,340 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add first product to cart
+2023-10-04 15:52:32,354 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button to add first product 
+2023-10-04 15:52:33,546 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Back to home screen 
+2023-10-04 15:52:33,713 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add second product to cart
+2023-10-04 15:52:35,043 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button to add second product
+2023-10-04 15:52:36,376 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:52:37,614 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Remove first product from cart 
+2023-10-04 15:52:38,330 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on total price of remaining item 
+2023-10-04 15:52:39,079 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on total items count of remaining item 
+2023-10-04 15:52:39,826 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:52:39,847 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium
+2023-10-04 15:53:11,649 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set device name
+2023-10-04 15:53:11,684 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set platform name
+2023-10-04 15:53:11,709 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set automation name
+2023-10-04 15:53:11,732 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set android activity and package
+2023-10-04 15:53:11,756 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set the app path
+2023-10-04 15:53:11,810 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:53:12,099 [main] [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory:76:InternalLoggerFactory.java -
+            Using Log4J2 as the default logging framework
+2023-10-04 15:53:12,114 [main] [DEBUG] io.netty.util.ResourceLeakDetector:129:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.level: simple
+2023-10-04 15:53:12,115 [main] [DEBUG] io.netty.util.ResourceLeakDetector:130:ResourceLeakDetector.java -
+            -Dio.netty.leakDetection.targetRecords: 4
+2023-10-04 15:53:12,124 [main] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2475fba3
+2023-10-04 15:53:12,182 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:497:PlatformDependent0.java -
+            -Dio.netty.noUnsafe: false
+2023-10-04 15:53:12,183 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:1001:PlatformDependent0.java -
+            Java version: 20
+2023-10-04 15:53:12,185 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:137:PlatformDependent0.java -
+            sun.misc.Unsafe.theUnsafe: available
+2023-10-04 15:53:12,187 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:161:PlatformDependent0.java -
+            sun.misc.Unsafe.copyMemory: available
+2023-10-04 15:53:12,190 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:193:PlatformDependent0.java -
+            sun.misc.Unsafe.storeFence: available
+2023-10-04 15:53:12,191 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:236:PlatformDependent0.java -
+            java.nio.Buffer.address: available
+2023-10-04 15:53:12,193 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:321:PlatformDependent0.java -
+            direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-04 15:53:12,193 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:386:PlatformDependent0.java -
+            java.nio.Bits.unaligned: available, true
+2023-10-04 15:53:12,195 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:453:PlatformDependent0.java -
+            jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @8909f18
+2023-10-04 15:53:12,197 [main] [DEBUG] io.netty.util.internal.PlatformDependent0:483:PlatformDependent0.java -
+            java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-10-04 15:53:12,198 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1159:PlatformDependent.java -
+            sun.misc.Unsafe: available
+2023-10-04 15:53:12,199 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1270:PlatformDependent.java -
+            maxDirectMemory: 8522825728 bytes (maybe)
+2023-10-04 15:53:12,200 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1289:PlatformDependent.java -
+            -Dio.netty.tmpdir: C:\Users\MOSTAF~1.ABD\AppData\Local\Temp (java.io.tmpdir)
+2023-10-04 15:53:12,200 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1368:PlatformDependent.java -
+            -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-04 15:53:12,200 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1119:PlatformDependent.java -
+            Platform: Windows
+2023-10-04 15:53:12,201 [main] [DEBUG] io.netty.util.internal.PlatformDependent:178:PlatformDependent.java -
+            -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-04 15:53:12,202 [main] [DEBUG] io.netty.util.internal.PlatformDependent:185:PlatformDependent.java -
+            -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-04 15:53:12,205 [main] [DEBUG] io.netty.util.internal.CleanerJava9:71:CleanerJava9.java -
+            java.nio.ByteBuffer.cleaner(): available
+2023-10-04 15:53:12,205 [main] [DEBUG] io.netty.util.internal.PlatformDependent:205:PlatformDependent.java -
+            -Dio.netty.noPreferDirect: false
+2023-10-04 15:53:12,234 [main] [DEBUG] io.netty.util.internal.PlatformDependent:1010:PlatformDependent.java -
+            org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-04 15:53:12,291 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:100:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-04 15:53:12,292 [main] [DEBUG] io.netty.util.internal.InternalThreadLocalMap:101:InternalThreadLocalMap.java -
+            -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-04 15:53:12,562 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:83:JdkSslContext.java -
+            Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-04 15:53:12,562 [main] [DEBUG] io.netty.handler.ssl.JdkSslContext:84:JdkSslContext.java -
+            Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-04 15:53:12,632 [main] [DEBUG] io.netty.util.concurrent.GlobalEventExecutor:53:GlobalEventExecutor.java -
+            -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-04 15:53:12,673 [main] [DEBUG] io.netty.channel.MultithreadEventLoopGroup:44:MultithreadEventLoopGroup.java -
+            -Dio.netty.eventLoopThreads: 16
+2023-10-04 15:53:12,694 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:110:NioEventLoop.java -
+            -Dio.netty.noKeySetOptimization: false
+2023-10-04 15:53:12,694 [main] [DEBUG] io.netty.channel.nio.NioEventLoop:111:NioEventLoop.java -
+            -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-04 15:53:12,803 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:157:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numHeapArenas: 16
+2023-10-04 15:53:12,804 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:158:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.numDirectArenas: 16
+2023-10-04 15:53:12,804 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:160:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.pageSize: 8192
+2023-10-04 15:53:12,804 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:165:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxOrder: 9
+2023-10-04 15:53:12,804 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:169:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.chunkSize: 4194304
+2023-10-04 15:53:12,805 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:170:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.smallCacheSize: 256
+2023-10-04 15:53:12,806 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:171:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.normalCacheSize: 64
+2023-10-04 15:53:12,806 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:172:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-04 15:53:12,806 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:173:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-04 15:53:12,807 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:174:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-04 15:53:12,807 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:175:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-04 15:53:12,807 [main] [DEBUG] io.netty.buffer.PooledByteBufAllocator:176:PooledByteBufAllocator.java -
+            -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-04 15:53:12,831 [main] [DEBUG] io.netty.buffer.ByteBufUtil:89:ByteBufUtil.java -
+            -Dio.netty.allocator.type: pooled
+2023-10-04 15:53:12,832 [main] [DEBUG] io.netty.buffer.ByteBufUtil:98:ByteBufUtil.java -
+            -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-04 15:53:12,833 [main] [DEBUG] io.netty.buffer.ByteBufUtil:101:ByteBufUtil.java -
+            -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-04 15:53:13,318 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:79:DefaultChannelId.java -
+            -Dio.netty.processId: 18884 (auto-detected)
+2023-10-04 15:53:13,324 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:148:NetUtil.java -
+            -Djava.net.preferIPv4Stack: false
+2023-10-04 15:53:13,324 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:149:NetUtil.java -
+            -Djava.net.preferIPv6Addresses: false
+2023-10-04 15:53:13,342 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtilInitializations:145:NetUtilInitializations.java -
+            Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-04 15:53:13,345 [Forwarding newSession on session null to remote] [DEBUG] io.netty.util.NetUtil:206:NetUtil.java -
+            Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-04 15:53:13,397 [Forwarding newSession on session null to remote] [DEBUG] io.netty.channel.DefaultChannelId:101:DefaultChannelId.java -
+            -Dio.netty.machineId: cc:15:31:ff:fe:ff:ec:5e (auto-detected)
+2023-10-04 15:53:13,485 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:63:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkAccessible: true
+2023-10-04 15:53:13,486 [AsyncHttpClient-1-2] [DEBUG] io.netty.buffer.AbstractByteBuf:64:AbstractByteBuf.java -
+            -Dio.netty.buffer.checkBounds: true
+2023-10-04 15:53:13,486 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.ResourceLeakDetectorFactory:196:ResourceLeakDetectorFactory.java -
+            Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1573547f
+2023-10-04 15:53:13,534 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:96:Recycler.java -
+            -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-04 15:53:13,534 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:97:Recycler.java -
+            -Dio.netty.recycler.ratio: 8
+2023-10-04 15:53:13,535 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:98:Recycler.java -
+            -Dio.netty.recycler.chunkSize: 32
+2023-10-04 15:53:13,535 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:99:Recycler.java -
+            -Dio.netty.recycler.blocking: false
+2023-10-04 15:53:13,535 [AsyncHttpClient-1-2] [DEBUG] io.netty.util.Recycler:100:Recycler.java -
+            -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-04 15:53:22,166 [AsyncHttpClient-1-2] [DEBUG] io.netty.handler.codec.compression.Brotli:38:Brotli.java -
+            brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-04 15:53:22,410 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:53:22,565 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:53:28,275 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:53:29,342 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:53:30,783 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:53:31,524 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:53:32,385 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:53:33,183 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutFullName is starting.
+2023-10-04 15:53:33,233 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:53:39,241 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:53:40,511 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:53:40,536 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:53:49,280 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:53:49,300 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:53:54,868 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:53:55,957 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:53:57,849 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:53:58,286 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:53:59,119 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:53:59,816 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutAddressLine1 is starting.
+2023-10-04 15:53:59,832 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:54:06,915 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:54:08,111 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:54:08,129 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:54:17,068 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:54:17,086 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:54:22,803 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:54:23,834 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:54:25,175 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:54:25,498 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:54:26,475 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:54:27,162 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutCity is starting.
+2023-10-04 15:54:27,177 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:54:33,179 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:54:34,478 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:54:34,494 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:54:43,299 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:54:43,314 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:54:49,418 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:54:50,442 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:54:51,869 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:54:52,113 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:54:53,015 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:54:53,747 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutZipCode is starting.
+2023-10-04 15:54:53,760 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:54:59,869 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:55:01,174 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:55:01,190 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:55:10,335 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:55:10,347 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:55:16,262 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:55:17,293 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:55:18,727 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:55:18,879 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:55:19,694 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:55:20,414 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithoutCountry is starting.
+2023-10-04 15:55:20,425 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:55:25,864 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:55:27,001 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:55:27,016 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Set Android driver
+2023-10-04 15:55:35,844 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App  is opened
+2023-10-04 15:55:35,856 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Login successfully before adding item to cart 
+2023-10-04 15:55:42,711 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Add a product to cart
+2023-10-04 15:55:43,746 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Change the product color to be red
+2023-10-04 15:55:45,093 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on add to cart button 
+2023-10-04 15:55:45,227 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click in cart badge
+2023-10-04 15:55:46,118 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Click on Proceed checkout button 
+2023-10-04 15:55:46,814 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            checkoutWithCorrectData is starting.
+2023-10-04 15:55:46,825 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Enter all checkout mandatory fields except full name
+2023-10-04 15:55:52,998 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Assert on full name validation message
+2023-10-04 15:55:54,892 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            App is closed
+2023-10-04 15:55:54,911 [main] [INFO ] Utiliti.Logs:20:Logs.java -
+            Finishing firstAppium

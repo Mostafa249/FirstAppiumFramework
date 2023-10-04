@@ -42,8 +42,8 @@ public class AddToCartTests extends TestBase {
         Logs.info("Login successfully before adding item to cart ");
         HomeScreen.loginActions();
         LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 0),
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 1));
     }
 
     @Test(priority = 1, description = "Change item color")

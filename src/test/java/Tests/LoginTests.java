@@ -44,7 +44,7 @@ public class LoginTests extends TestBase {
     @Description("Un successful login with empty user name field")
     public void loginWithEmptyUserName() throws IOException {
         LoginScreen.loginActions("",
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 1));
         Logs.info("Assert on empty user name error message");
         Assert.assertTrue(driver.findElement(userNameIsRequiredMessage).isDisplayed());
     }
@@ -54,7 +54,7 @@ public class LoginTests extends TestBase {
     @Description("Un successful login with empty password field")
     public void loginWithEmptyPassword() throws IOException {
         LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 0),
                 "");
         Logs.info("Assert on empty password error message");
         Assert.assertTrue(driver.findElement(passwordIsRequiredMessage).isDisplayed());
@@ -65,8 +65,8 @@ public class LoginTests extends TestBase {
     @Description("Un successful login with invalid user name field")
     public void loginWithInvalidUserName() throws IOException {
         LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "invalidData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+                Spreadsheet.getData("appiumLoginData.xlsx", "invalidData", 1, 0),
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 1));
         Logs.info("Assert on wrong credentials error message");
         Assert.assertTrue(driver.findElement(invalidCredentialsMessage).isDisplayed());
     }
@@ -76,8 +76,8 @@ public class LoginTests extends TestBase {
     @Description("Un successful login with invalid password field")
     public void loginWithInvalidPassword() throws IOException {
         LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "invalidData", 1, 1));
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 0),
+                Spreadsheet.getData("appiumLoginData.xlsx", "invalidData", 1, 1));
         Logs.info("Assert on wrong credentials error message");
         Assert.assertTrue(driver.findElement(invalidCredentialsMessage).isDisplayed());
     }
@@ -87,8 +87,8 @@ public class LoginTests extends TestBase {
     @Description("Successful login with correct data")
     public void loginWithValidCredentials() throws IOException {
         LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 0),
+                Spreadsheet.getData("appiumLoginData.xlsx", "validData", 1, 1));
         Logs.info("Assert on login successfully ");
         Assert.assertTrue(driver.findElement(homeSortBtn).isDisplayed());
     }
