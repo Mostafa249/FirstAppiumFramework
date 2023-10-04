@@ -1,19 +1,24 @@
 package Tests;
 
+
 import Screens.HomeScreen;
 import Screens.LoginScreen;
 import Utiliti.Logs;
 import Utiliti.Spreadsheet;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.URL;
+import java.time.Duration;
 
 @Listeners(TestUtiliti.Listeners.class)
 public class LoginTests extends TestBase {
@@ -22,12 +27,22 @@ public class LoginTests extends TestBase {
     private static final By passwordIsRequiredMessage = AppiumBy.accessibilityId("Password-error-message");
     private static final By invalidCredentialsMessage = AppiumBy.accessibilityId(("generic-error-message"));
 
+    @BeforeMethod()
+    public void AndroidDriver() throws IOException {
+        Logs.info("Set Android driver");
+        driver = new AndroidDriver(new URL("http://0.0.0.0:4723"), option);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+        Logs.info("App  is opened");
+        new HomeScreen(driver);
+        new LoginScreen(driver);
+
+        HomeScreen.loginActions();
+    }
 
     @Test(priority = 1, description = "invalid login")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with empty user name field")
     public void loginWithEmptyUserName() throws IOException {
-        HomeScreen.loginActions();
         LoginScreen.loginActions("",
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
         Logs.info("Assert on empty user name error message");
@@ -38,7 +53,6 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with empty password field")
     public void loginWithEmptyPassword() throws IOException {
-        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 "");
@@ -50,7 +64,6 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with invalid user name field")
     public void loginWithInvalidUserName() throws IOException {
-        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "invalidData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
@@ -62,7 +75,6 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Un successful login with invalid password field")
     public void loginWithInvalidPassword() throws IOException {
-        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "invalidData", 1, 1));
@@ -74,7 +86,6 @@ public class LoginTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Successful login with correct data")
     public void loginWithValidCredentials() throws IOException {
-        HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));

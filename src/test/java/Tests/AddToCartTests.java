@@ -7,15 +7,19 @@ import Screens.ProductScreen;
 import Utiliti.Logs;
 import Utiliti.Spreadsheet;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.URL;
+import java.time.Duration;
 
 @Listeners(TestUtiliti.Listeners.class)
 public class AddToCartTests extends TestBase {
@@ -23,15 +27,29 @@ public class AddToCartTests extends TestBase {
     private static final By totalItemsPriceElement = AppiumBy.xpath("//*[@content-desc=\"total price\"]");
     private static final By totalItemsCountElement = AppiumBy.xpath("//*[@content-desc=\"total number\"]");
 
-    @Test(priority = 1, description = "Change item color")
-    @Severity(SeverityLevel.CRITICAL)
-    @Description("Change the color for an item before adding it to cart ")
-    public void ChangeTheItemColorBeforeAddingItToCart() throws IOException {
+    @BeforeMethod()
+    public void AndroidDriver() throws IOException {
+        Logs.info("Set Android driver");
+        driver = new AndroidDriver(new URL("http://0.0.0.0:4723"), option);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+
+        Logs.info("App  is opened");
+        new HomeScreen(driver);
+        new LoginScreen(driver);
+        new ProductScreen(driver);
+        new CartScreen(driver);
+
         Logs.info("Login successfully before adding item to cart ");
         HomeScreen.loginActions();
         LoginScreen.loginActions(
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
                 Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+    }
+
+    @Test(priority = 1, description = "Change item color")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Change the color for an item before adding it to cart ")
+    public void ChangeTheItemColorBeforeAddingItToCart() {
         Logs.info("Add a product to cart");
         HomeScreen.addProductActions("1");
         Logs.info("Change the product color to be red");
@@ -48,12 +66,7 @@ public class AddToCartTests extends TestBase {
     @Test(priority = 2, description = "Add items to cart")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Check existing of two added items to cart ")
-    public void addTwoItemsToCart() throws IOException {
-        Logs.info("Login successfully before adding item to cart ");
-        HomeScreen.loginActions();
-        LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+    public void addTwoItemsToCart() {
         Logs.info("Add first product to cart");
         HomeScreen.addProductActions("1");
         Logs.info("Click on add to cart button to add first product ");
@@ -73,12 +86,7 @@ public class AddToCartTests extends TestBase {
     @Test(priority = 3, description = "Validate total price ")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Validate total price of two items added to cart ")
-    public void calculateTotalPriceOfAddedItems() throws IOException {
-        Logs.info("Login successfully before adding item to cart ");
-        HomeScreen.loginActions();
-        LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+    public void calculateTotalPriceOfAddedItems() {
         Logs.info("Add first product to cart");
         HomeScreen.addProductActions("1");
         Logs.info("Click on add to cart button to add first product ");
@@ -99,12 +107,7 @@ public class AddToCartTests extends TestBase {
     @Test(priority = 4, description = "Validate total price and total items count ")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Validate total price and total items Count after removing an item from cart ")
-    public void checkTotalPriceAndTotalItemsAfterRemovingAnItemFromCart() throws IOException {
-        Logs.info("Login successfully before adding item to cart ");
-        HomeScreen.loginActions();
-        LoginScreen.loginActions(
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 0),
-                Spreadsheet.getData(System.getProperty("user.dir") + "/src/resources/TestData/appiumLoginData.xlsx", "validData", 1, 1));
+    public void checkTotalPriceAndTotalItemsAfterRemovingAnItemFromCart() {
         Logs.info("Add first product to cart");
         HomeScreen.addProductActions("1");
         Logs.info("Click on add to cart button to add first product ");

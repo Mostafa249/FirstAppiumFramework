@@ -7,12 +7,21 @@ import org.openqa.selenium.By;
 
 public class CartScreen {
     private static AppiumDriver driver;
-    public CartScreen(AppiumDriver driver){
+    private static final By proceedToCheckoutBtn = AppiumBy.accessibilityId("Proceed To Checkout button");
+
+    public CartScreen(AppiumDriver driver) {
         CartScreen.driver = driver;
     }
+
     @Step("Remove product from cart . ")
     public static void removeProductActions(String productIndex) {
         By product = AppiumBy.xpath("(//*[@content-desc=\"remove item\"])[" + productIndex + "]");
         driver.findElement(product).click();
     }
+
+    @Step("Click on proceed to checkout button. ")
+    public static void clickOnProceedCheckoutBtn() {
+        driver.findElement(proceedToCheckoutBtn).click();
+    }
+
 }
